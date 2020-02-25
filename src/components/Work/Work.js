@@ -4,7 +4,7 @@ import { Row, Col, Container } from "reactstrap";
 import bsImage from "../../Images/BookStore.jpg";
 import bbImage from "../../Images/BurgerPizzaBuilder.png";
 import shImage from "../../Images/SoftwareHouse.jpg";
-import dlImage from "../../Images/ToDoList.jpg";
+import qaImage from "../../Images/quiz.jpg";
 import classes from "./Work.module.css";
 import { Spring } from "react-spring/renderprops";
 
@@ -81,16 +81,14 @@ export default class Work extends Component {
                       style={{ paddingTop: "32px", backgroundColor: "inherit" }}
                       onClick={() =>
                         window.open(
-                          "https://laughing-hypatia-7dea5c.netlify.com/",
+                          "https://relaxed-swartz-333cdf.netlify.com/",
                           "_blank"
                         )
                       }
                     >
                       <CardTitle>To Do List</CardTitle>
-                      <CardImg width="100%" src={dlImage} height="350vh" />
-                      <CardText>
-                        A Reactjs To do list Built with react hooks
-                      </CardText>
+                      <CardImg width="100%" src={qaImage} height="350vh" />
+                      <CardText>A Reactjs Quiz App</CardText>
                     </Card>
                   </Col>
                 </Row>
